@@ -1,7 +1,7 @@
 from functools import lru_cache
 
-@lru_cache
 class Solution:
+    @lru_cache
     def climbStairs(self, n: int) -> int:
         if n<2:
             return 1
